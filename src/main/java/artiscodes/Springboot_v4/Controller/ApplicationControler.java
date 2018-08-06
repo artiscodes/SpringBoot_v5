@@ -15,7 +15,7 @@ public class ApplicationControler {
         return "Hello from Spring";
     }
 
-    @RequestMapping("/home")
+    @RequestMapping("/welcome")
     public String Welcome(){
         return "welcomepage";
     }
